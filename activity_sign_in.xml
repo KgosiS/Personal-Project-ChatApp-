@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_3"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    tools:context=".signIn"
+    tools:ignore="SpeakableTextPresentCheck">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="               PERSONAL DETAILS"
+            android:textColor="#795548"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/ads"
+            android:layout_marginTop="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:hint="First Name"
+            android:textColorHint="#FF9800"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,TextFields,VisualLintTextFieldSize"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="210dp"
+            android:hint="Last Name"
+            android:textSize="20sp"
+            android:textColorHint="#FF9800"
+            tools:ignore="HardcodedText,TextContrastCheck,TextFields,VisualLintTextFieldSize"
+            android:importantForAutofill="no" />
+        <EditText
+            android:layout_marginTop="260dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColorHint="#FF9800"
+            android:hint="Identification Number(e.g 0312144855255)"
+            tools:ignore="HardcodedText,TextFields,VisualLintTextFieldSize"
+            android:importantForAutofill="no" />
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Cellphone Number"
+    android:textSize="20sp"
+    android:layout_marginTop="315dp"
+    android:textColorHint="#FF9800"
+    tools:ignore="HardcodedText,TextFields,VisualLintTextFieldSize"
+    android:importantForAutofill="no" />
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>
